@@ -5,10 +5,15 @@ h2 {
 header {
 	position: sticky;
 	top: 0;
+	z-index: 10;
 }
 
 section {
 	padding: 50px 0;
+}
+/* Registration */
+.wrapper {
+	height: 100vh;
 }
 
 .logo {
@@ -25,10 +30,10 @@ section {
 	object-fit: cover;
 }
 .carousel-control-next-icon {
-	background-image: url(../images/free-icon-right-arrow-angle-54833.png) ;
+	background-image: url(../images/carousel/free-icon-right-arrow-angle-54833.png) ;
 }
 .carousel-control-prev-icon {
-	background-image: url(../images/left-arrow.png);
+	background-image: url(../images/carousel/left-arrow.png);
 }
 .carousel-control-prev{
 	left: -110px;
@@ -40,9 +45,5 @@ section {
 footer {
 	padding: 15px 0;
 }
-.flex-container{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
+
 
