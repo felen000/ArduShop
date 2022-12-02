@@ -9,24 +9,26 @@ header {
 }
 
 section {
-	padding: 50px 0;
+	padding: 25px 0;
+}
+
+section section{
+	padding: 0;
 }
 /* Registration */
 .wrapper {
 	height: 100vh;
 }
 
+/* Logo */
 .logo {
 	width: 40px;
 }
 
-.carousel-caption {
-	color: #333;
-}
-
+/* Bestsellers */
 .card-img-top{
 	width: 100%;
-	height: 250px;
+	max-height: 250px;
 	object-fit: cover;
 }
 .carousel-control-next-icon {
@@ -35,11 +37,30 @@ section {
 .carousel-control-prev-icon {
 	background-image: url(../images/carousel/left-arrow.png);
 }
+
+.carousel-control-prev,
+.carousel-control-next {
+	width: 30px;
+}
+
 .carousel-control-prev{
-	left: -110px;
+	left: -30px;
 }
 .carousel-control-next{
-	right: -110px;
+	right: -30px;
+}
+
+@media (max-width:576px) {
+	.carousel-container {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+/* Goods */
+
+.goods .card-img-top {
+	height: 150px;
 }
 
 footer {
