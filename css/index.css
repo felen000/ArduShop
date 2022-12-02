@@ -63,6 +63,12 @@ section section{
 	height: 150px;
 }
 
+.price {
+	font-size: 20px;
+	font-style: italic;
+}
+
+/* Footer */
 footer {
 	padding: 15px 0;
 }
