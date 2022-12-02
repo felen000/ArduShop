@@ -68,6 +68,12 @@ section section{
 	font-style: italic;
 }
 
+.badge {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
 /* Footer */
 footer {
 	padding: 15px 0;
