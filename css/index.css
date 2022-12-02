@@ -75,8 +75,15 @@ section section{
 }
 
 /* Footer */
-footer {
+.footer {
 	padding: 15px 0;
 }
+
+.footer .col:last-child {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+
 
 
