@@ -30,9 +30,12 @@
 							Уроки
 						</a>
 						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="https://alexgyver.ru/arduino-first/" target="_blank">Первое подключение</a></li>
-							<li><a class="dropdown-item" href="https://alexgyver.ru/lessons/arduino-led/" target="_blank">Работа со светодиодом</a></li>
-							<li><a class="dropdown-item" href="https://alexgyver.ru/lessons/arduino-buttons/" target="_blank">Работа с кнопкой</a></li>
+							<li><a class="dropdown-item" href="https://alexgyver.ru/arduino-first/"
+									target="_blank">Первое подключение</a></li>
+							<li><a class="dropdown-item" href="https://alexgyver.ru/lessons/arduino-led/"
+									target="_blank">Работа со светодиодом</a></li>
+							<li><a class="dropdown-item" href="https://alexgyver.ru/lessons/arduino-buttons/"
+									target="_blank">Работа с кнопкой</a></li>
 						</ul>
 					</li>
 					<li class="nav-item">
@@ -141,134 +144,189 @@
 	<!--============ Goods ============-->
 	<section class="goods">
 		<div class="container">
-			<!-- <h2>Товары</h2> -->
-			<!--============ Arduino ============-->
-			<section id="arduino">
-				<h3 class="mb-3">Arduino</h3>
-				<div class="row gy-3 mb-5">
-					<div class="col-md-4 col-lg-3">
-						<div class="card">
-							<img src="images/goods/arduino-uno.jpg" class="card-img-top" alt="Arduino Uno">
-							<div class="card-body">
-								<h3 class="card-title">Arduino Uno</h3>
-								<div class="row align-items-center">
-									<div class="col">
-										<a href="product.html" class="btn btn-primary">Купить</a>
-									</div>
-									<div class="col text-end">
-										<span class="price">199р</span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-lg-3">
-						<div class="card">
-							<img src="images/goods/arduino-nano.jpg" class="card-img-top" alt="Arduino Uno">
-							<div class="card-body">
-								<h3 class="card-title">Arduino Nano</h3>
-								<div class="row align-items-center">
-									<div class="col">
-										<a href="product.html" class="btn btn-primary">Купить</a>
-									</div>
-									<div class="col text-end">
-										<span class="price">199р</span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-lg-3">
-						<div class="card">
-							<img src="images/goods/arduino-kit.jpg" class="card-img-top" alt="Arduino Uno">
-							<div class="card-body">
-								<h3 class="card-title">Arduino Kit</h3>
-								<div class="row align-items-center">
-									<div class="col">
-										<a href="product.html" class="btn btn-primary">Купить</a>
-									</div>
-									<div class="col text-end">
-										<span class="price">199р</span>
-									</div>
-								</div>
-							</div>
-							<span class="badge text-bg-danger">Хит продаж!</span>
-						</div>
-					</div>
-					<div class="col-md-4 col-lg-3">
-						<div class="card">
-							<img src="images/goods/arduino-bot.webp" class="card-img-top" alt="Arduino Uno">
-							<div class="card-body">
-								<h3 class="card-title">Arduino Bot</h3>
-								<div class="row align-items-center">
-									<div class="col">
-										<a href="product.html" class="btn btn-primary">Купить</a>
-									</div>
-									<div class="col text-end">
-										<span class="price">199р</span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-lg-3">
-						<div class="card">
-							<img src="images/goods/arduino-car.jpg" class="card-img-top" alt="Arduino Uno">
-							<div class="card-body">
-								<h3 class="card-title">Arduino Car</h3>
-								<div class="row align-items-center">
-									<div class="col">
-										<a href="product.html" class="btn btn-primary">Купить</a>
-									</div>
-									<div class="col text-end">
-										<span class="price">199р</span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+			<div class="row">
+				<div class="col-md-3">
+					<h5>Тип</h5>
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" value="" id="delivery1">
+						<label class="form-check-label" for="delivery1">
+						  Платы
+						</label>
+					  </div>
+					  <div class="form-check">
+						<input class="form-check-input" type="checkbox" value="" id="delivery2">
+						<label class="form-check-label" for="delivery2">
+						 Наборы
+						</label>
+					  </div>
+					  <div class="form-check">
+						<input class="form-check-input" type="checkbox" value="" id="dekivery3">
+						<label class="form-check-label" for="dekivery3">
+						  Модули
+						</label>
+					  </div>
+					<h5>Доставка</h5>
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="type" id="type1">
+						<label class="form-check-label" for="type1">
+						   В пункт выдачи
+						</label>
+					  </div>
+					  <div class="form-check">
+						<input class="form-check-input" type="radio" name="type" id="type2">
+						<label class="form-check-label" for="type2">
+						   Курьером
+						</label>
+					  </div>
+					  <div class="form-check mb-2">
+						<input class="form-check-input" type="radio" name="type" id="type3">
+						<label class="form-check-label" for="type3">
+						   Почтой
+						</label>
+					  </div>
+					  <div class="form-check form-switch mb-2">
+						<input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+						<label class="form-check-label fw-bold" for="flexSwitchCheckDefault">Бесплатная доставка</label>
+					  </div>
+					  <select class="form-select mb-2" aria-label="Default select example">
+						<option selected>Сортировка</option>
+						<option value="1">Сначала дешевле</option>
+						<option value="2">Сначала дороже</option>
+						<option value="3">По рейтингу</option>
+					  </select>
 				</div>
-			</section>
-			<!--/============ Arduino ============-->
-			<!--============ Raspberry pi ============-->
-			<section id="raspberry">
-				<h3 class="mb-3">Raspberry Pi</h3>
-				<div class="row gy-3 mb-5">
-					<div class="col-md-4 col-lg-3">
-						<div class="card">
-							<img src="images/goods/raspbery_pi.jpg" class="card-img-top" alt="Arduino Uno">
-							<div class="card-body">
-								<h3 class="card-title">Raspberry Pi Model B</h3>
-								<div class="row align-items-center">
-									<div class="col">
-										<a href="product.html" class="btn btn-primary">Купить</a>
+				<div class="col-md-9">
+					<!--============ Arduino ============-->
+					<section id="arduino">
+						<h3 class="mb-3">Arduino</h3>
+						<div class="row gy-3 mb-5">
+							<div class="col-md-6 col-lg-4 col-xl-3">
+								<div class="card">
+									<img src="images/goods/arduino-uno.jpg" class="card-img-top" alt="Arduino Uno">
+									<div class="card-body">
+										<h3 class="card-title">Arduino Uno</h3>
+										<div class="row align-items-center">
+											<div class="col">
+												<a href="product.html" class="btn btn-primary">Купить</a>
+											</div>
+											<div class="col text-end">
+												<span class="price">299р</span>
+											</div>
+										</div>
 									</div>
-									<div class="col text-end">
-										<span class="price">199р</span>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 col-xl-3">
+								<div class="card">
+									<img src="images/goods/arduino-nano.jpg" class="card-img-top" alt="Arduino Uno">
+									<div class="card-body">
+										<h3 class="card-title">Arduino Nano</h3>
+										<div class="row align-items-center">
+											<div class="col">
+												<a href="product.html" class="btn btn-primary">Купить</a>
+											</div>
+											<div class="col text-end">
+												<span class="price">199р</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 col-xl-3">
+								<div class="card">
+									<img src="images/goods/arduino-kit.jpg" class="card-img-top" alt="Arduino Uno">
+									<div class="card-body">
+										<h3 class="card-title">Arduino Kit</h3>
+										<div class="row align-items-center">
+											<div class="col">
+												<a href="product.html" class="btn btn-primary">Купить</a>
+											</div>
+											<div class="col text-end">
+												<span class="price">1999р</span>
+											</div>
+										</div>
+									</div>
+									<span class="badge text-bg-danger">Хит продаж!</span>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 col-xl-3">
+								<div class="card">
+									<img src="images/goods/arduino-bot.webp" class="card-img-top" alt="Arduino Uno">
+									<div class="card-body">
+										<h3 class="card-title">Arduino Bot</h3>
+										<div class="row align-items-center">
+											<div class="col">
+												<a href="product.html" class="btn btn-primary">Купить</a>
+											</div>
+											<div class="col text-end">
+												<span class="price">1299р</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 col-xl-3">
+								<div class="card">
+									<img src="images/goods/arduino-car.jpg" class="card-img-top" alt="Arduino Uno">
+									<div class="card-body">
+										<h3 class="card-title">Arduino Car</h3>
+										<div class="row align-items-center">
+											<div class="col">
+												<a href="product.html" class="btn btn-primary">Купить</a>
+											</div>
+											<div class="col text-end">
+												<span class="price">1499р</span>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-4 col-lg-3">
-						<div class="card">
-							<img src="images/goods/raspberry_pi-zero.jpg" class="card-img-top" alt="Arduino Uno">
-							<div class="card-body">
-								<h3 class="card-title">Raspberry Pi Zero</h3>
-								<div class="row align-items-center">
-									<div class="col">
-										<a href="product.html" class="btn btn-primary">Купить</a>
+					</section>
+					<!--/============ Arduino ============-->
+					<!--============ Raspberry pi ============-->
+					<section id="raspberry">
+						<h3 class="mb-3">Raspberry Pi</h3>
+						<div class="row gy-3 mb-5">
+							<div class="col-md-6 col-lg-4 col-xl-3">
+								<div class="card">
+									<img src="images/goods/raspbery_pi.jpg" class="card-img-top" alt="Arduino Uno">
+									<div class="card-body">
+										<h3 class="card-title">Raspberry Pi Model B</h3>
+										<div class="row align-items-center">
+											<div class="col">
+												<a href="product.html" class="btn btn-primary">Купить</a>
+											</div>
+											<div class="col text-end">
+												<span class="price">3999р</span>
+											</div>
+										</div>
 									</div>
-									<div class="col text-end">
-										<span class="price">199р</span>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 col-xl-3">
+								<div class="card">
+									<img src="images/goods/raspberry_pi-zero.jpg" class="card-img-top"
+										alt="Arduino Uno">
+									<div class="card-body">
+										<h3 class="card-title">Raspberry Pi Zero</h3>
+										<div class="row align-items-center">
+											<div class="col">
+												<a href="product.html" class="btn btn-primary">Купить</a>
+											</div>
+											<div class="col text-end">
+												<span class="price">1999р</span>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
+					</section>
+					<!--/============ Raspberry pi ============-->
 				</div>
-			</section>
-			<!--/============ Raspberry pi ============-->
+			</div>
+
 		</div>
 	</section>
 	<!--/============ Goods ============-->
