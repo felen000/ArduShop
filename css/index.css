@@ -30,8 +30,6 @@ section section{
 	padding: 0;
 }
 
-
-
 [class^="form"] {
 	user-select: none;
 }
@@ -115,3 +113,11 @@ section section{
 	border-radius: 5px;
 }
 
+/* Profile */
+
+.profile-picture {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 50%;
+}
